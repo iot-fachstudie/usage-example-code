@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "meshblu-connector-runner",
+    "postinstall": "meshblu-util register -d '{\"name\":\"meshblu-connector-rpi-light-sensor\",\"device\":\"RaspberryPi\"}' > meshblu.json"
+  },
+  "dependencies": {
+    "meshblu-connector-runner": "^9.1.2",
+    "meshblu-util": "^5.5.1",
+    "onoff": "^1.1.1",
+    "performance-now": "^0.2.0",
+    "sleep": "^4.0.0"
+  }
+}

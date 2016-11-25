@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "node raspberry-pi.js"
+  },
+  "dependencies": {
+    "azure-iot-device": "^1.0.15",
+    "azure-iot-device-amqp": "^1.0.15",
+    "onoff": "^1.1.1",
+    "performance-now": "^0.2.0",
+    "sleep": "^4.0.0"
+  }
+}

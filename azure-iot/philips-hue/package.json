@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "azure-event-hubs": "0.0.4",
+    "request": "^2.75.0"
+  }
+}
