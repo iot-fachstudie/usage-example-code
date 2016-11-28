@@ -1,4 +1,3 @@
-// Ref. https://github.com/Azure/azure-event-hubs/tree/master/node/send_receive
 'use strict'
 
 const request = require('request')

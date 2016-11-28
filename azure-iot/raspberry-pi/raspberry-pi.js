@@ -1,4 +1,3 @@
-// Ref. https://github.com/Azure/azure-iot-sdks/blob/master/node/device/samples/simple_sample_device.js
 'use strict'
 
 const Protocol = require('azure-iot-device-amqp').Amqp

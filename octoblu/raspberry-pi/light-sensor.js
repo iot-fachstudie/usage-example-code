@@ -1,8 +1,8 @@
 'use strict'
 
-// Ref. https://www.scribd.com/document/193892647/RaspberryPi-Analogue-Input-with-Capacitor-node-js
-// Ref. http://www.raspberrypi-spy.co.uk/2012/08/reading-analogue-sensors-with-one-gpio-pin/
-// Ref. https://github.com/RPi-Distro/python-gpiozero/blob/f607a27c79404657f777687165ec4f6e2f205a11/gpiozero/input_devices.py
+/*
+ * Adapted from https://github.com/RPi-Distro/python-gpiozero/blob/master/gpiozero/input_devices.py
+ */
 let test = 0
 function measureBrightness(pin) {
   return new Promise((resolve, reject) => {
